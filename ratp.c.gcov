@@ -1,0 +1,15 @@
+        -:    0:Source:ratp.c
+        -:    0:Graph:ratp.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    1:static const float Price = 1.5;
+function computePrice called 0 returned 0% blocks executed 0%
+    #####:    2:float computePrice(int age)
+        -:    3:{
+    #####:    4:    if (age>12)
+branch  0 never executed
+branch  1 never executed
+    #####:    5:        return Price;
+        -:    6:    else
+    #####:    7:        return Price/2;
+        -:    8:}
